@@ -1,7 +1,8 @@
 # Framework Project Webbase (ASP.MVC with Angular)
-
 Menggunakan Framework.NET 4.5 & Angular 7.0
-
+Catatan: 
+- Framework.NET (Backend)
+- Angular (Frontend)
 
 # Generate & Build
 ## ASP.NET
