@@ -1,0 +1,24 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Angular ASP</title>
+    <base href="/" />
+    <link rel="icon" href="~/ico.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    @Styles.Render("~/bundles/main_style")
+    @Styles.Render("~/bundles/main_sass")
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    @RenderSection("head",required: false)
+</head>
+<body>
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/main_script")
+    <script>
+        System.import('src').catch(function (err) { console.error(err); });
+    </script>
+    @RenderSection("scripts",required: false)
+</body>
+</html>
