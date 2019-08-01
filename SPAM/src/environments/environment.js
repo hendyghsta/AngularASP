@@ -4,7 +4,12 @@
 // The list of file replacements can be found in `angular.json`.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.environment = {
-    production: false
+    appName: 'Sistem Penyedia Air Minum (SPAM)',
+    envName: 'DEV',
+    production: false,
+    i18nPrefix: '',
+    test: false,
+    versions: '0.0.1'
 };
 /*
  * For easier debugging in development mode, you can import the following file

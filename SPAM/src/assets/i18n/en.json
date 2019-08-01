@@ -1,0 +1,29 @@
+{
+    "anms.menu.about": "About",
+    "anms.menu.login": "Sign in",
+    "anms.menu.logout": "Logout",
+    "anms.menu.settings": "Settings",
+
+    "anms.settings.animations.elements": "Navigation page elements slide up",
+    "anms.settings.animations.page": "Navigation whole page transition",
+    "anms.settings.animations.title": "Animations",
+    "anms.settings.general.language.en": "English",
+    "anms.settings.general.language.id": "Indonesia",
+    "anms.settings.general.placeholder": "Language",
+    "anms.settings.general.title": "General",
+    "anms.settings.themes.blue": "Blue",
+    "anms.settings.themes.dark": "Dark",
+    "anms.settings.themes.light": "Light",
+    "anms.settings.themes.nature": "Nature",
+    "anms.settings.themes.night-mode": "Auto night mode (from 21:00 to 7:00)",
+    "anms.settings.themes.placeholder": "Color Theme",
+    "anms.settings.themes.saneago": "",
+    "anms.settings.themes.sticky-header": "Sticky header",
+    "anms.settings.themes.title": "Themes",
+    "anms.settings.title": "Settings",
+
+    "anms.footer.changelog": "Show changelog",
+
+    "anms.title.long": "Sistem Penyedia Air Minum (SPAM)",
+    "anms.title.short": "SPAM"
+}

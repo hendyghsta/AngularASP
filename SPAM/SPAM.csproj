@@ -175,6 +175,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\logo.png" />
+    <Content Include="Content\styles-reset.scss-theme.css">
+      <DependentUpon>styles-reset.scss-theme.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\styles-reset.scss-theme.min.css">
+      <DependentUpon>styles-reset.scss-theme.css</DependentUpon>
+    </Content>
+    <Content Include="Content\styles-variables.css">
+      <DependentUpon>styles-variables.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\styles-variables.min.css">
+      <DependentUpon>styles-variables.css</DependentUpon>
+    </Content>
+    <Content Include="Content\styles.css">
+      <DependentUpon>styles.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\styles.min.css">
+      <DependentUpon>styles.css</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
@@ -202,9 +221,26 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="angular.json" />
-    <None Include="Content\styles.scss" />
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
+    <Content Include="Content\styles-reset.scss" />
+    <Content Include="Content\styles-reset.scss-theme.scss" />
+    <Content Include="Content\styles-variables.scss" />
+    <Content Include="Content\styles.scss" />
+    <Content Include="Content\themes\black-theme.scss" />
+    <Content Include="Content\themes\default-theme.scss" />
+    <Content Include="Content\themes\light-theme.scss" />
+    <Content Include="Content\themes\nature-theme.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="node_modules\%40angular\material\_theming.scss" />
+    <Content Include="node_modules\bootstrap\scss\bootstrap-grid.scss" />
+    <Content Include="node_modules\bootstrap\scss\bootstrap-reboot.scss" />
+    <Content Include="src\app\app\app.component.scss" />
+    <Content Include="src\app\app\app.component.scss-theme.scss" />
+    <Content Include="src\app\shared\big-input\big-input\big-input.component.scss-theme.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

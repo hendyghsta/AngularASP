@@ -1,0 +1,29 @@
+{
+    "anms.menu.about": "Tentang",
+    "anms.menu.login": "Masuk",
+    "anms.menu.logout": "Keluar",
+    "anms.menu.settings": "Pengaturan",
+
+    "anms.settings.animations.elements": "Navigasi per-element halaman slide up",
+    "anms.settings.animations.page": "Navigasi seluruh halaman transisi",
+    "anms.settings.animations.title": "Animasi",
+    "anms.settings.general.language.en": "English",
+    "anms.settings.general.language.id": "Indonesia",
+    "anms.settings.general.placeholder": "Bahasa",
+    "anms.settings.general.title": "Umum",
+    "anms.settings.themes.blue": "Biru",
+    "anms.settings.themes.dark": "Gelap",
+    "anms.settings.themes.light": "Terang",
+    "anms.settings.themes.nature": "Alami",
+    "anms.settings.themes.night-mode": "Otomatis Mode Malam (dari 21:00 sampai 7:00)",
+    "anms.settings.themes.placeholder": "Warna Tema",
+    "anms.settings.themes.saneago": "",
+    "anms.settings.themes.sticky-header": "Sticky header",
+    "anms.settings.themes.title": "Tema",
+    "anms.settings.title": "Pengaturan",
+
+    "anms.footer.changelog": "Lihat History Perubahan",
+
+    "anms.title.long": "Sistem Penyedia Air Minum (SPAM)",
+    "anms.title.short": "SPAM"
+}

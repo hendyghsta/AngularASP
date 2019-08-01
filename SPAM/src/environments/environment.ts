@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  appName: 'Sistem Penyedia Air Minum (SPAM)',
+  envName: 'DEV',
+  production: false,
+  i18nPrefix: '',
+  test: false,
+  versions: '0.0.1'
 };
 
 /*

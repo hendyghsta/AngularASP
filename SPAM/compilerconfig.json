@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Content/styles.css",
+    "inputFile": "Content/styles.scss"
+  },
+  {
+    "outputFile": "Content/styles-reset.scss-theme.css",
+    "inputFile": "Content/styles-reset.scss-theme.scss"
+  },
+  {
+    "outputFile": "Content/styles-variables.css",
+    "inputFile": "Content/styles-variables.scss"
+  }
+]

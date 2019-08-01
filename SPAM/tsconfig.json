@@ -10,20 +10,16 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es5",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
-    ]
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2018", "dom"]
   },
   "include": [
     "src/main.ts",
     "src/polyfills.ts",
-    "src/app/*", "src/app/app/app.component.spec.js", "src/app/app/app.component.spec.ts", "src/app/app/app.component.js"
-   ],
-    "exclude": [
-        "node_modules"
-   ]
+    "src/app/*",
+    "src/app/app/app.component.spec.js",
+    "src/app/app/app.component.spec.ts",
+    "src/app/app/app.component.js"
+  ],
+  "exclude": ["node_modules"]
 }

@@ -1,10 +1,7 @@
 ﻿using BundleTransformer.Core.Builders;
 using BundleTransformer.Core.Bundles;
 using BundleTransformer.Core.Orderers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using BundleTransformer.Core.Transformers;
 using System.Web.Optimization;
 
 namespace SPAM.App_Start {
@@ -27,11 +24,17 @@ namespace SPAM.App_Start {
 
             var nullBulider = new NullBuilder();
             var nullOrderer = new NullOrderer();
+            var styleTransformer = new StyleTransformer();
 
-            bundles.Add(new CustomStyleBundle("~/bundles/main_sass").Include(
+            var commonSytleBundle = new CustomStyleBundle("~/bundles/main_sass");
+            commonSytleBundle.Include(
                     "~/node_modules/@primer/css/index.scss",
                     "~/content/styles.scss"
-                ));
+                );
+            commonSytleBundle.Builder = nullBulider;
+            commonSytleBundle.Transforms.Add(styleTransformer);
+            commonSytleBundle.Orderer = nullOrderer;
+            bundles.Add(commonSytleBundle);
 
             // BundleTable.EnableOptimizations = true;
         }
